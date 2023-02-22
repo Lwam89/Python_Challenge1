@@ -1,3 +1,10 @@
+#Create a script to analyze poll data by caculating the following:
+#Total number of votes cast
+#A complete list of candidates
+#The percentage of Votes Each candidates Won
+#The total number of vote for each candidate
+#Winner 
+
 import os
 import csv
 
