@@ -15,7 +15,7 @@ candidates = []
 csv_reader = ['1','2']
 
 # Pull in data & read file
-csvpath = os.path.join("C:/Users/lulum/OneDrive/desktop/DataClass/UCB-VIRT-DATA-PT-01-2023-U-LOLC/02-Homework/03-Python/Starter_Code/PyPoll/Resources/election_data.csv")
+csvpath = os.path.join("C:/Users/lulum/repos/Python_Challenge1/PyBank/Resources/election_data.csv")
 with open(csvpath) as csvfile:
     csv_reader = csv.reader(csvfile, delimiter = ',')
     next(csv_reader)
@@ -58,7 +58,7 @@ print("--------------------------------")
  
 
  #open a file for writing:
-f = open("C:/Users/lulum/OneDrive/desktop/DataClass/UCB-VIRT-DATA-PT-01-2023-U-LOLC/02-Homework/03-Python/Starter_Code/PyPoll/Resources/election_data.txt", "w")
+f = open("C:/Users/lulum/repos/Python_Challenge1/PyBank/Resources/election_data.txt", "w")
 print("Election Results", file=f)
 print("--------------------------------", file=f)
 print(f"Total Votes: {votes}", file=f)
