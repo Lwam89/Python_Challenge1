@@ -1,10 +1,3 @@
-#Create a Python script that analyzes the records to calculate each of the following:
-#The total number of months included in the dataset
-#The net total amount of "Profit/Losses" over the entire period
-#Calculate the changes in "Profit/Losses" over the entire period, then find the average of those changes
-#The greatest increase in profits (date and amount) over the entire period
-#The greatest decrease in losses (date and amount) over the entire period
-
 import os
 import csv
 
@@ -16,7 +9,7 @@ monthList = []
 monthlyChanges = []
 
 #Pull in data & read file
-csvpath = os.path.join("C:/Users/lulum/repos/Python_Challenge1/PyBank/Resources/budget_data.csv")
+csvpath = os.path.join("C:/Users/lulum/OneDrive/desktop/DataClass/UCB-VIRT-DATA-PT-01-2023-U-LOLC/02-Homework/03-Python/Starter_Code/PyBank/Resources/budget_data.csv")
 with open(csvpath) as csvfile:
     csv_reader = csv.reader(csvfile, delimiter = ',')
     next(csv_reader)
