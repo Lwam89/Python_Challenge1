@@ -66,7 +66,7 @@ print(f"Greatest Decrease in Profits: {MinMonth} (${MaxDecrease})")
  
 
  #open a file for writing:
-f = open("C:/Users/lulum/OneDrive/desktop/DataClass/UCB-VIRT-DATA-PT-01-2023-U-LOLC/02-Homework/03-Python/Starter_Code/PyBank/Resources/budget_data.txt" ,"w")
+f = open("C:/Users/lulum/repos/Python_Challenge1/PyBank/Resources/budget_data.txt" ,"w")
 print("Financial Analysis",file=f)
 print("--------------------------------", file=f)
 print(f"Total Months: {MonthCount}",file=f)
